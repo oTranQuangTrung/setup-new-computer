@@ -8,6 +8,7 @@ Install ibus-unikey
 
 Install ruby + rails + mysql + postgresql + git
 	https://gorails.com/setup/ubuntu/16.04
+  git config --global push.default simple
 
 Install Tmux
     https://bogdanvlviv.com/posts/tmux/how-to-install-the-latest-tmux-on-ubuntu-16_04.html
@@ -49,4 +50,3 @@ Install Nerd Tree
 
 Install Sublime text 3
     https://sublimetext.com/docs/3/linux_repositories.html
-
