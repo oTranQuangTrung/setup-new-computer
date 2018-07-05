@@ -1,0 +1,11 @@
+"font_face": "hermit",
+"ensure_newline_at_eof_on_save": true,
+"highlight_line": true,
+"show_encoding": true,
+"show_line_endings": true,
+"tab_size": 2,
+"translate_tabs_to_spaces": true,
+"trim_trailing_white_space_on_save": true,
+"line_padding_bottom": 1,
+"line_padding_top": 1,
+"show_definitions": false
