@@ -1,3 +1,5 @@
+" vim doc :h +=
+
 " Nerd Tree
 set runtimepath+=~/.vim/bundle/nerdtree
 autocmd vimenter * NERDTree
@@ -16,6 +18,8 @@ set hlsearch
 set ruler
 set tabstop=2
 set shiftwidth=2
+set softtabstop=2
+set expandtab
 set fileencodings=ucs-bom,utf-8,sjis,default
 set encoding=utf-8
 set history=1000

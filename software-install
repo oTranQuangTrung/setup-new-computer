@@ -3,50 +3,27 @@ Setup hostpot
 Install Chrome
 
 Install ibus-unikey
-	sudo apt-get install ibus-unikey
-	ibus restart
+  sudo apt-get install ibus-unikey
+  ibus restart
 
 Install ruby + rails + mysql + postgresql + git
-	https://gorails.com/setup/ubuntu/16.04
+  https://gorails.com/setup/ubuntu/16.04
   git config --global push.default simple
 
 Install Tmux
-    https://bogdanvlviv.com/posts/tmux/how-to-install-the-latest-tmux-on-ubuntu-16_04.html
-	sudo apt update
-
-	sudo apt install -y git
-
-	sudo apt install -y automake
-	sudo apt install -y build-essential
-	sudo apt install -y pkg-config
-	sudo apt install -y libevent-dev
-	sudo apt install -y libncurses5-dev
-
-	rm -fr /tmp/tmux
-
-	git clone https://github.com/tmux/tmux.git /tmp/tmux
-
-	cd /tmp/tmux
-
-	sh autogen.sh
-
-	./configure && make
-
-	sudo make install
-
-	cd -
-
-	rm -fr /tmp/tmux
+  sudo apt-get install tmux
 
 Install Vim and Config Vimrc
-	sudo apt-get install vim
-	https://github.com/amix/vimrc
-	git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-	sh ~/.vim_runtime/install_awesome_vimrc.sh
+  sudo apt-get install vim
+
 Install Nerd Tree
-    https://github.com/scrooloose/nerdtree
-    git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+  https://github.com/scrooloose/nerdtree
+  git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
+Install CtrlP
+  http://kien.github.io/ctrlp.vim/#installation
 
+Copy dotfile
+	
 Install Sublime text 3
-    https://sublimetext.com/docs/3/linux_repositories.html
+  https://sublimetext.com/docs/3/linux_repositories.html
