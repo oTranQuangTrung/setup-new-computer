@@ -1,11 +1,13 @@
-" Set CtrlPMixed
-map <C-l> :CtrlPMixed<CR>
-
 " Nerd Tree
+set runtimepath+=~/.vim/bundle/nerdtree
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let g:NERDTreeWinPos = "left"
+
+" Set CtrlPMixed
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+map <C-l> :CtrlPMixed<CR>
 
 " Code
 set number
