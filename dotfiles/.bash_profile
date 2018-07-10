@@ -11,6 +11,13 @@ elif infocmp xterm-256color >/dev/null 2>&1; then
 	export TERM='xterm-256color';
 fi;
 
+# Aliases
+alias ..="cd .."                                                                                                                                                                                        
+alias ...="cd ../.."                                                             
+alias ....="cd ../../.."                                                         
+alias .....="cd ../../../.."                                                     
+alias g="git"                                                                    
+
 prompt_git() {
 	local s='';
 	local branchName='';
