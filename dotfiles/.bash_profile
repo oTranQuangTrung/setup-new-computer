@@ -12,11 +12,16 @@ elif infocmp xterm-256color >/dev/null 2>&1; then
 fi;
 
 # Aliases
-alias ..="cd .."                                                                                                                                                                                        
-alias ...="cd ../.."                                                             
-alias ....="cd ../../.."                                                         
-alias .....="cd ../../../.."                                                     
-alias g="git"                                                                    
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias g="git"
+alias gst="git status"
+alias gdf="git diff"
+alias gcof="git checkout -f"
+alias fbd="grep -rl binding.pry app/"
+alias fdb="grep -rl debugger app/"
 
 prompt_git() {
 	local s='';
